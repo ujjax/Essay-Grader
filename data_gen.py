@@ -1,7 +1,5 @@
 from __future__ import print_function
 
-
-import gzip
 import os
 import numpy
 import sys
@@ -39,7 +37,10 @@ def prepare_data(seqs, labels, maxlen=None):
     return x, x_mask, labels
 
 def get_dataset_file():
-    data = pd.read_table('/home/ujjax/Desktop/train_set.tsv')
+    wd = os.getcwd()
+    os.chdir(os.path.join(wd,'data'))
+    data = pd.read_table('train_set.tsv')
+    os.chdir(wd)
     return data
 
 
