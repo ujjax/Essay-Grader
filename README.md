@@ -1,2 +1,2 @@
-# essay-grader-lstm
-Automated Essay Grading 
+
+Automated Essay Grader
