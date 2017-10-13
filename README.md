@@ -1,5 +1,5 @@
 
-Automated Essay Grader
+Automatic Essay Grader
 
 
 
