@@ -3,6 +3,6 @@ Automatic Essay Grader
 
 
 
-Description :
+Description:
 
  https://www.kaggle.com/c/asap-aes
